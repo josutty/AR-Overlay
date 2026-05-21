@@ -1,0 +1,24 @@
+{
+  "name": "ar-cad-viewer",
+  "version": "1.0.0",
+  "description": "AR CAD Viewer - Overlay STP models on real objects using marker tracking",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "download-marker": "node scripts/download-marker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "three": "^0.148.0",
+    "vite": "^6.4.2"
+  }
+}
